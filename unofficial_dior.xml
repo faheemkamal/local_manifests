@@ -19,5 +19,4 @@
 <remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
 <project name="haoyangw/android_frameworks_webview" path="frameworks/webview" remote="dior" revision="lp5.1" />
 
-
 </manifest>
