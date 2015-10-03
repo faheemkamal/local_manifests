@@ -10,11 +10,11 @@
 <project name="haoyangw/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="cm-12.0" />
 
 
-<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="dior" revision="cm-12.1" />
-<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="dior" revision="cm-12.1" />
+<project name="omnirom/android_device_qcom_common" path="device/qcom/common" remote="dior" revision="cm-12.1" />
+<project name="omnirom/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="dior" revision="cm-12.1" />
 
 
-<remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
+<remove-project name="android_frameworks_webview" path="frameworks/webview" />
 <project name="haoyangw/android_frameworks_webview" path="frameworks/webview" remote="dior" revision="lp5.1" />
 
 
