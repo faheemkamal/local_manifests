@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="dior" fetch="https://github.com"/>
+
+<project name="faheemkamal/OMNI_TWRP_android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="master" />
+<project name="faheemkamal/android_vendor_xiaomi_dior" path="vendor/xiaomi/dior" remote="dior" revision="cm-12.0" />
+
+</manifest>
