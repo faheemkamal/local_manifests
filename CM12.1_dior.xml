@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -6,20 +5,22 @@
 <remote name="uber" fetch="https://bitbucket.org"/>
 
 
-<project name="faheemkamal/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="xenonhd-lp-mr1" />
-<project name="faheemkamal/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="lollipop" />
-<project name="faheemkamal/android_vendor_xiaomi_dior" path="vendor/xiaomi/dior" remote="dior" revision="cm-12.0" />
-
-<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="dior" revision="cm-12.1" />
-<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="dior" revision="cm-12.1" />
+<project name="faheemkamal/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="faheem3" />
+<project name="faheemkamal/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="faheem1" />
+<project name="faheemkamal/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="dior" revision="faheem" />
 
 
 <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="dior" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="dior" revision="cm-11.0" />
 
 
-<remove-project name="android_frameworks_webview" path="frameworks/webview" />
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="dior" revision="cm-12.0" />
+<project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="dior" revision="cm-12.1" />
+
+
+<remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
 <project name="haoyangw/android_frameworks_webview" path="frameworks/webview" remote="dior" revision="lp5.1" />
+
 
 
 <remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
