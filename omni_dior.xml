@@ -5,9 +5,9 @@
 <remote name="uber" fetch="https://bitbucket.org"/>
 
 
-<project name="faheemkamal/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="faheem3" />
-<project name="faheemkamal/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="faheem1" />
-<project name="faheemkamal/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="dior" revision="faheem" />
+<project name="faheemkamal/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="cm-12.1-stable" />
+<project name="faheemkamal/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="cm-12.1-stable" />
+<project name="faheemkamal/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="dior" revision="cm-12.1-stable" />
 
 
 <project name="omnirom/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf-new" remote="dior" revision="android-5.1" />
